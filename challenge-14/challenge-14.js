@@ -1,3 +1,4 @@
+(function(){
 /*
 Envolva todo o código desse desafio em uma IIFE.
 */
@@ -10,7 +11,8 @@ Os números devem ser de 1 a 10.
 Mostre esse array no console.
 */
 console.log( 'Number Objects Array:' );
-// ?
+var numberObjects = [{ number: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }];
+console.log(numberObjects);  
 
 /*
 Crie um array chamado `justNumbers`, que terá como elementos somente os
@@ -95,3 +97,5 @@ formato de String.
 */
 console.log( '\njustMod2Or3 é um array? Se for, a representação dele em String é:' );
 // ?
+  
+})();
